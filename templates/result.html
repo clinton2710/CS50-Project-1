@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+{%  block body %}
+{% for result in results %}
+ <div class="card" style="width: 18rem; display: flex; flex-wrap: wrap;">
+    <div class="card-body"  >
+      <h5 class="card-title">{{result.title}}</title></h5>
+    </div>
+    <ul class="list-group list-group-flush" >
+      <li class="list-group-item">{{result.isbn}}</li>
+      <li class="list-group-item">{{result.author}}</li>
+      <li class="list-group-item">{{result.pubyear}}</li>
+    </ul>
+    <div class="card-body">
+      <a href="/book/{{result.isbn}}"  class="card-link">Book page</a>
+    </div>
+  </div> 
+  {% endfor %}
+  {% endblock %}
