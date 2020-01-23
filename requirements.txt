@@ -3,5 +3,4 @@ flask-Session
 psycopg2
 sqlalchemy
 requests
-json
 pylintrc
