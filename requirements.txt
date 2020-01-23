@@ -3,4 +3,3 @@ flask-Session
 psycopg2
 sqlalchemy
 requests
-pylintrc
