@@ -1,7 +1,7 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import scoped_session,sessionmaker
 from flask import Flask, g, render_template, session, url_for,logging, request, redirect,flash,json,jsonify
-engine = create_engine('postgresql://postgres:12345@localhost/good')
+engine = create_engine('postgres://okthlidymcbtex:86e67aceca357d377393360818029ac090e8ee9926f7bd419f26e1cdcdb43fa8@ec2-54-247-188-107.eu-west-1.compute.amazonaws.com:5432/d1ioo81nm7hp7f')
 db = scoped_session(sessionmaker(bind=engine))
 from passlib.hash import sha256_crypt
 from helpers import login_required
