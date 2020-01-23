@@ -2,7 +2,6 @@ flask
 flask-Session
 psycopg2
 sqlalchemy
-sqlalchemy.orm
 requests
 json
 pylintrc
