@@ -5,7 +5,7 @@
 
 ## Use the app on Heroku
 
-### https://book-reviews-cs50-project1.herokuapp.com/
+
 
 Persistent information is stored in an internal Postgres DB with three tables:
 - Users
