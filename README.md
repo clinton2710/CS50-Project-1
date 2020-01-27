@@ -4,7 +4,7 @@
 ### https://courses.edx.org/courses/course-v1:HarvardX+CS50W+Web/course/
 
 ## Use the app on Heroku
-
+## https://cs50-project-1-c.herokuapp.com/
 
 
 Persistent information is stored in an internal Postgres DB with three tables:
