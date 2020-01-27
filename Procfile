@@ -1,1 +1,1 @@
-web:gunicorn goodreads.py
+web:gunicorn goodreads.wsgi
