@@ -1,1 +1,1 @@
-web:gunicorn cs50-project-1:app
+web:gunicorn goodreads.py
