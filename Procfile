@@ -1,1 +1,1 @@
-web:gunicorn app:goodreads
+web:gunicorn goodreads:app
